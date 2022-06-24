@@ -1,0 +1,36 @@
+.tabuleiro{
+    left: 400px;
+    position: absolute;
+    top: 50px;
+}
+
+.cavalo{
+    max-width: 50px ;
+}
+#cavalinhopocoto{
+    position: absolute;
+    left: 14px;
+    top: 10px;
+    animation: mov-cavalinhopocoto 20s infinite;
+}
+
+ @keyframes mov-cavalinhopocoto{
+     0%{top: 7px; left: 70px;}
+     6%{top: 133px; left: 70px;}
+     12%{top: 133px; left: 133px;}
+     18%{top: 259px; left: 133px;}
+     24%{top: 259px; left: 196px;}
+     28%{top: 385px; left: 196px;}
+     34%{top: 385px; left: 259px;}
+     40%{top: 448px; left: 259px;}
+     46%{top: 448px; left: 385px;}
+     52%{top: 448px; left: 259px;}
+     58%{top: 385px; left: 259px;}
+     64%{top: 385px; left: 196px;}
+     70%{top: 259px; left: 196px;}
+     76%{top: 259px; left: 133px;}
+     82%{top: 133px; left: 133px;}
+     88%{top: 133px; left: 70px;}
+     100%{top: 7px; left: 70px;}
+ }
+
